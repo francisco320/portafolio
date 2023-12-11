@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+   box-sizing: border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root {
+    --color-background: #051430;
+    --color-nav:#3939b0;
+    --color-text:#3a6cb3;
+    --boton-color:#d9e7eb
+}
+body{
+    background-color: var(--color-background);
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 0 3rem 0 ;
+    gap: 1rem;
+}
+nav:first-child{
+    align-self: flex-start;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+ul li a{
+    color:var(--color-nav);
+}
+#logo{
+
+    width: 48px;
+    
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#perfil{
+    width: 100px;
+
+}
+h1{
+    font-size: 2rem;
+    color: var(--color-text);
+}
+h2,h3{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+    color:rgb(250, 241, 241);
+    font-weight: 800;
+}
+#right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.icon{
+    width: 36px;
+    margin-right: 10px;
+}
+.boton {
+    background-color: var(--color-text);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 10px 0;
+    border: none;
+    color: beige;
+}
+.boton:hover{
+    border-radius: 0 10px;
+}
