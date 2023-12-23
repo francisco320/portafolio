@@ -55,9 +55,9 @@ header{
 }
 #perfil{
     width: 18vw;
-    max-width: 200px;
+    max-width: 150px;
     border:2px solid var(--color-nav);
-    border-radius:50px ;
+    border-radius:50cm ;
 
 }
 .beside{
